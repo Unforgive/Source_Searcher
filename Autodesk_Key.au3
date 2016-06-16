@@ -19,8 +19,7 @@ Local $seriallog = ""
 Local $productlog = ''
 Local $installtype = ''
 Local $reg2 = ''
-Local $ftpIp = '192.9.1.234'
-;Local $ftpIp = '165.244.121.21'
+Local $ftpIp = ''
 Local $ftpId = 'autodeskkey'
 Local $ftpPw = 'gytni'
 Local $ftpPort = '21'
@@ -1287,6 +1286,7 @@ Func _networkUpload($ServerIP, $reportFullPath, $ResultLogFileName)
 
 EndFunc
 #ce
+
 Func _SelfDelete($iDelay = 0)
    Local $sCmdFile
    FileDelete(@TempDir & "scratch.bat")
