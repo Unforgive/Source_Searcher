@@ -8,6 +8,10 @@
 #include <StringConstants.au3>
 #include <MsgBoxConstants.au3>
 
+#cs
+iMon AutoCAD Key Searcher Ver. 1.1
+#ce
+
 Local $KeyCheck = 0
 Local $logdata = ""
 Local $seriallog = ""
